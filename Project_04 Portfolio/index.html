@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aman's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Aman</span>
+                <div>and I a'm </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="Picsart_02.jpg" alt="">
+            </div>
+        </section>
+
+        <hr>
+        <section class="secondSection">
+            <h2 class="section-hendling">My Learning Journey</h2>
+            <p>I started learning HTML, CSS, JavaScript, and C language in 2024-2025 with the help of YouTube and my
+                university. I’m a beginner and exploring new skills every day to become a better developer.</p>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="HTML-logo.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2025)
+                    </div>
+                    <div class="vertical-desc">
+                        I started learning HTML in 2024 through YouTube and my university.
+                        I know how to create simple web pages using headings, paragraphs, links, and images.
+                        I am still learning more about different HTML tags and their uses.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="CSS-logo.png" alt="">
+                    <div class="vertical-title">
+                        CSS Developer (2025)
+                    </div>
+                    <div class="vertical-desc">
+                        I began learning CSS in 2024 to style my web pages.
+                        I can apply basic colors, fonts, margins, and simple layouts.
+                        I am currently learning advanced layouts like Flexbox and Grid.
+
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="JS-logo.png" alt="">
+                    <div class="vertical-title">
+                        JavaScript Developer (2025)
+                    </div>
+                    <div class="vertical-desc">
+                        I started learning JavaScript in 2024 to make my websites interactive.
+                        I know basic concepts like variables, functions, loops, and events.
+                        I am continuing to learn more about DOM manipulation and building dynamic web pages.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="C Language.jpeg" alt="">
+                    <div class="vertical-title">
+                        C Language Developer (2024)
+                    </div>
+                    <div class="vertical-desc">
+                        I started learning C Language in 2024 with the help of my university and online resources.
+                        I can write basic programs using loops, functions, and arrays.
+                        Currently, I am exploring more about data structures and problem-solving using C.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-column">
+                <h4><i class="fas fa-link"></i> Quick Links</h4>
+                <ul>
+                    <li><a href="#home">🏠 Home</a></li>
+                    <li><a href="#about">👤 About</a></li>
+                    <li><a href="#projects">💼 Projects</a></li>
+                    <li><a href="#contact">📞 Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4><i class="fas fa-address-book"></i> Contact Info</h4>
+                <p><i class="fas fa-envelope"></i> amanraut680@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +91-9905454487</p>
+            </div>
+            <div class="footer-column">
+                <h4><i class="fas fa-paper-plane"></i> Stay Connected</h4>
+                <input type="email" placeholder="Your Email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/aman-rawat-366bab331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/aman111rawat" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?igsh=hs0fag22t0x2&utm_content=nygvis1"
+                target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <p class="text-center">&copy; 2025 Aman Rawat | All rights reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Digital Marketer', 'Graphic Designer'],
+            typeSpeed: 120,
+        });
+    </script>
+</body>
+
+</html>
